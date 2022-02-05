@@ -1,0 +1,17 @@
+{
+  "Author": "Nana",
+  "Name": "System Free",
+  "InternalName": "SystemFree",
+  "AssemblyVersion": "0.0.0.1",
+  "Punchline": "Filter out most System Messages. (EN Only)",
+  "Description": "Filter out most System Messages. (EN Only)",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/NadyaNayme/SystemFree",
+  "Tags": [
+    "Chat",
+    "Filter",
+    "Spam"
+  ],
+  "CategoryTags": [ "Social" ],
+  "IconUrl": "https://raw.githubusercontent.com/NadyaNayme/SystemFree/master/images/icon.png"
+}
