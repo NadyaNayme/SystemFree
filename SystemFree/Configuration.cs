@@ -10,6 +10,18 @@ namespace SystemFree
         public int Version { get; set; } = 0;
 
         public bool Enabled { get; set; } = true;
+        public bool NuclearMode { get; set; } = true;
+        public bool Blacklist { get; set; } = false;
+
+        public bool BetterInstanceMessage { get; set; } = false;
+
+        public bool HideSRankHunt { get; set; } = false;
+
+        public bool HideCommendations { get; set; } = false;
+
+        public bool HideCompletedVenture { get; set; } = false;
+
+        public bool HideInstanceMessage { get; set; } = false;
 
         // the below exist just to make saving less cumbersome
 
