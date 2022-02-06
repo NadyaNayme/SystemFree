@@ -2,7 +2,7 @@
   "Author": "Nana",
   "Name": "System Free",
   "InternalName": "SystemFree",
-  "AssemblyVersion": "0.0.0.10",
+  "AssemblyVersion": "0.0.1.0",
   "Punchline": "Filter out most System Messages. (EN Only)",
   "Description": "Filter out most System Messages. (EN Only)",
   "ApplicableVersion": "any",

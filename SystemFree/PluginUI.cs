@@ -68,7 +68,7 @@ namespace SystemFree
                 return;
             }
 
-            ImGui.SetNextWindowSize(new Vector2(600, 255), ImGuiCond.Always);
+            ImGui.SetNextWindowSize(new Vector2(600, 205), ImGuiCond.Always);
             if (ImGui.Begin("SystemFree Settings", ref this.settingsVisible,
                 ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse))
             {
@@ -78,20 +78,6 @@ namespace SystemFree
                     this.configuration.Enabled = enabled;
                     this.configuration.Save();
                 }
-                var additionalBlacklist = this.configuration.Blacklist;
-                if (ImGui.Checkbox("Enable the additional blacklist.", ref additionalBlacklist))
-                {
-                    this.configuration.Blacklist = additionalBlacklist;
-                    this.configuration.Save();
-                }
-                ImGuiComponents.HelpMarker("Tries to prevent system messages that are somehow ignoring their system channel categorization in the client from appearing. This includes messages from Gardening, Retainers, Duties, Item Interactions, Level Syncing and many more miscellaneous messages. It is recommended that you leave this enabled.");
-                var nuclear = this.configuration.NuclearMode;
-                if (ImGui.Checkbox("Enable nuclear mode. WARNING: May block messages from Guildmasters enable at your own risk.", ref nuclear))
-                {
-                    this.configuration.NuclearMode = nuclear;
-                    this.configuration.Save();
-                }
-                ImGuiComponents.HelpMarker("Tries to filter any and all text that did not originate from a player in an attempt to any system messages from ever appearing.");
                 var betterInstanceMessage = this.configuration.BetterInstanceMessage;
                 if (ImGui.Checkbox("Improve the Instance message text.", ref betterInstanceMessage))
                 {
