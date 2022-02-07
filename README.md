@@ -1,7 +1,3 @@
-# SystemFree
+# DEPRECATED
 
-Because most of this channel is spam but you can't block it because of a few important messages.
-
-## Settings
-
-Coming Soon
+Use [TinyChat](https://github.com/NadyaNayme/TidyChat) instead.
